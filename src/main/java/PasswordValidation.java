@@ -83,7 +83,7 @@ public class PasswordValidation {
 
     public static boolean badPasswords(String password){
         boolean weakPassword = false;
-        String[] badPasswordList = {"First", "Second", "abc", "123456"};
+        String[] badPasswordList = {"First", "Second", "abc", "123456", "first"};
 
         for(int i = 0; i < badPasswordList.length; i++){
             if(password.contains(badPasswordList[i])) {
@@ -93,5 +93,4 @@ public class PasswordValidation {
 
         return weakPassword;
     }
-
 }
