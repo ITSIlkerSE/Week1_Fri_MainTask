@@ -1,33 +1,34 @@
 public class PasswordValidation {
 
     public static void main(String[] args) {
-        System.out.println(lengthOfPassword());
+        System.out.println(lengthOfPassword("dasdasda"));
 
     }
 
 
-    public static String lengthOfPassword(String password) {
+    public static boolean lengthOfPassword(String password) {
 
 
         if (password.length() >= 8) {
-            return "Password is valid!";
+            return true;
         } else {
-            return "Password is invalid!";
+            return false;
         }
 
     }
 
-    public static String isNumber (String password) {
+    public static boolean isNumber (String password) {
 
         for(int i = 0; i <= 9; i++ ) {
             String.valueOf(i);
             if (password.contains(String.valueOf(i))) {
-                return "Password contains at least one digit ";
+                return true;
             }
 
-        }       return "Try to put at least one digit in your password ";
+        }       return false;
     }
 
+    public static String returnStrings (String printLine)
 
     }
 

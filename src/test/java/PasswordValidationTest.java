@@ -13,11 +13,11 @@ public class PasswordValidationTest {
 
         //When
 
-        String actual = PasswordValidation.lengthOfPassword(passwordLengthTest);
+        String actual = String.valueOf(PasswordValidation.lengthOfPassword(passwordLengthTest));
 
         //Then
 
-        assertEquals("Password is valid!", actual);
+        assertEquals("true", actual);
 
     }
 
@@ -31,11 +31,11 @@ public class PasswordValidationTest {
 
         //When
 
-        String actual = PasswordValidation.lengthOfPassword(passwordLengthTest);
+        String actual = String.valueOf(PasswordValidation.lengthOfPassword(passwordLengthTest));
 
         //Then
 
-        assertEquals("Password is invalid!", actual);
+        assertEquals("false", actual);
 
     }
 
