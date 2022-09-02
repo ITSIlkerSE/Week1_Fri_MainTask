@@ -17,7 +17,6 @@ public class PasswordValidation {
         }
 
     }
-
     public static boolean lengthOfPassword(String password) {
 
         boolean validLength = password.length() >= 8;
