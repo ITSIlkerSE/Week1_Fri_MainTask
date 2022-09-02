@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class PasswordValidation {
 
     public static void main(String[] args) {
-        isValid("pdsadas2341");
+        isValid("aBderg3f");
+
 /*
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Enter password (At least 8 digits and 1 number)");
@@ -45,6 +46,12 @@ public class PasswordValidation {
     public static boolean isValid(String password) {
         boolean isValid = false;
 
+        if(hasUpperCase(password)){
+            System.out.println("Password contains uppercase letter(s)");
+        }else{
+            System.out.println("Password contains only lowercase letter(s). Think about putting some uppercase letters");
+        }
+
         if(lengthOfPassword(password)){
             System.out.println("Password is long enough.");
         }else {
@@ -66,6 +73,22 @@ public class PasswordValidation {
             return isValid;
         }
 
+    public static boolean hasUpperCase(String password) {
 
+        boolean upperCase = false;
+        String compareString = password.toUpperCase();
+
+        for(int i =0; i<password.length();i++){
+
+            if(!Character.isDigit(password.charAt(i))){
+                if(password.charAt(i) == compareString.charAt(i)){
+                    upperCase = true;
+                }
+            }
+
+        }
+
+        return upperCase;
+    }
 
     }
