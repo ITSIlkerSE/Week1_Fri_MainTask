@@ -17,11 +17,11 @@ public class PasswordValidation {
 
     }
 
-    public static boolean isNumber (String isDigit) {
+    public static boolean isNumber (String password) {
 
         for(int i = 0; i <= 9; i++ ){
             String.valueOf(i);
-            if(isDigit.contains(String.valueOf(i))){
+            if(password.contains(String.valueOf(i))){
                 return true;
             }
 
