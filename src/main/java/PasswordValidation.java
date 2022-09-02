@@ -1,7 +1,7 @@
 public class PasswordValidation {
 
     public static void main(String[] args) {
-        System.out.println(lengthOfPassword("dasdasda"));
+        System.out.println(lengthOfPassword("sdasdasd52"));
 
     }
 
@@ -28,7 +28,6 @@ public class PasswordValidation {
         }       return false;
     }
 
-    public static String returnStrings (String printLine)
 
     }
 
