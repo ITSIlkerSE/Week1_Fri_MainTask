@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class PasswordValidationTest {
+import org.junit.jupiter.api.Test;
+
+public class PasswordValidationTest {
+
+    @Test
+    void passwordLength(){
+
+    }
 }
