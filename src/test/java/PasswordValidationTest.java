@@ -40,7 +40,7 @@ public class PasswordValidationTest {
     }
 
     @Test
-    void isNumberInPassword(){
+    void isNumberInPasswordTrue(){
 
         //Given
         String isDigitInPassword = "dasd34illd";
@@ -48,6 +48,17 @@ public class PasswordValidationTest {
         String actual = String.valueOf(PasswordValidation.isNumber(isDigitInPassword));
         //Then
         assertEquals("true", actual);
+    }
+
+    @Test
+    void isNumberInPasswordFalse(){
+
+        //Given
+        String isDigitInPassword = "dasdlld";
+        //When
+        String actual = String.valueOf(PasswordValidation.isNumber(isDigitInPassword));
+        //Then
+        assertEquals("false", actual);
     }
 
 }
