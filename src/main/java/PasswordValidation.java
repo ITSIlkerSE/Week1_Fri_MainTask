@@ -1,31 +1,33 @@
+import java.sql.Array;
 import java.util.Scanner;
 
 public class PasswordValidation {
 
     public static void main(String[] args) {
-        isValid("aBderg3f");
 
-/*
-        Scanner myScanner = new Scanner(System.in);
-        System.out.println("Enter password (At least 8 digits and 1 number)");
-        String password = myScanner.nextLine();
+        boolean enterpassword = true;
+        while(enterpassword){
 
-        isValid(password);
+            Scanner myScanner = new Scanner(System.in);
+            System.out.println("Enter password");
+            String password = myScanner.nextLine();
 
- */
+            enterpassword = !isValid(password);
+
+        }
+
+
+
+
     }
 
-
-
     public static boolean lengthOfPassword(String password) {
-
 
         if (password.length() >= 8) {
             return true;
         } else {
             return false;
         }
-
     }
 
     public static boolean isNumber(String password) {
@@ -35,43 +37,38 @@ public class PasswordValidation {
             if (password.contains(String.valueOf(i))) {
                 hasNumber = true;
             }
-
-
         }
-
-
         return hasNumber;
     }
 
     public static boolean isValid(String password) {
         boolean isValid = false;
-
-        if(hasUpperCase(password)){
-            System.out.println("Password contains uppercase letter(s)");
-        }else{
-            System.out.println("Password contains only lowercase letter(s). Think about putting some uppercase letters");
-        }
-
-        if(lengthOfPassword(password)){
-            System.out.println("Password is long enough.");
-        }else {
-            System.out.println("Password is not long enough !");
-        }
-        if (isNumber(password)) {
-            ;
-            System.out.println("Password has at least one digit.");
-        } else {
-            System.out.println("Password has no digit !");
-        }
-
-        if (lengthOfPassword(password) && isNumber(password)) {
-            System.out.println("Password is safe !");
+        if (!badPasswords(password) && hasUpperCase(password) && lengthOfPassword(password) && isNumber(password)) {
+            System.out.println("Password is valid!");
             isValid = true;
-        } else {
-            System.out.println("Password is not save enough, please put at least one digit and your password should be at least 8 digits long");
+
+        } else{
+
+            if(badPasswords(password)){
+                System.out.println("Password is unsecure due to bad sequence ");
+            }
+
+            if(!hasUpperCase(password)){
+                System.out.println("Password contains only lowercase letter(s). Think about putting some uppercase letters");
+            }
+
+            if(!lengthOfPassword(password)){
+                System.out.println("Password is not long enough !");
+            }
+            if (!isNumber(password)) {
+
+                System.out.println("Password has no digit !");
+            }
+
+            System.out.println("Try a new password.");
         }
-            return isValid;
-        }
+        return isValid;
+    }
 
     public static boolean hasUpperCase(String password) {
 
@@ -87,8 +84,20 @@ public class PasswordValidation {
             }
 
         }
-
         return upperCase;
     }
 
+    public static boolean badPasswords(String password){
+        boolean weakPassword = false;
+        String[] badPasswordList = {"First", "Second", "abc", "123456"};
+
+        for(int i = 0; i < badPasswordList.length; i++){
+            if(password.contains(badPasswordList[i])) {
+                weakPassword = true;
+            }
+        }
+
+        return weakPassword;
     }
+
+}
