@@ -47,7 +47,7 @@ public class PasswordValidationTest {
         //When
         String actual = String.valueOf(PasswordValidation.isNumber(isDigitInPassword));
         //Then
-        assertEquals("Password contains at least one digit ", actual);
+        assertEquals("true", actual);
     }
 
     @Test
@@ -58,7 +58,7 @@ public class PasswordValidationTest {
         //When
         String actual = String.valueOf(PasswordValidation.isNumber(isDigitInPassword));
         //Then
-        assertEquals("Try to put at least one digit in your password ", actual);
+        assertEquals("false", actual);
     }
 
 }

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="Test case false">
+    <list default="true" id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="new boolean cases">
       <change beforePath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662104601909</updated>
-      <workItem from="1662104603272" duration="12526000" />
+      <workItem from="1662104603272" duration="12977000" />
     </task>
     <task id="LOCAL-00001" summary="Adding surefire Plugin">
       <created>1662105316605</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662116810833</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new boolean cases">
+      <created>1662117492953</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662117492953</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +148,7 @@
     <MESSAGE value="Test working now" />
     <MESSAGE value="Little tweak to code" />
     <MESSAGE value="Test case false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case false" />
+    <MESSAGE value="new boolean cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="new boolean cases" />
   </component>
 </project>
