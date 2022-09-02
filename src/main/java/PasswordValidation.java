@@ -16,20 +16,14 @@ public class PasswordValidation {
 
         }
 
-
-
-
     }
 
     public static boolean lengthOfPassword(String password) {
 
-        if (password.length() >= 8) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+        boolean validLength = password.length() >= 8;
 
+        return validLength;
+    }
     public static boolean isNumber(String password) {
         boolean hasNumber = false;
         for (int i = 0; i <= 9; i++) {
