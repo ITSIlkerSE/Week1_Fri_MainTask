@@ -1,8 +1,8 @@
 public class PasswordValidation {
 
     public static void main(String[] args) {
-        System.out.println(lengthOfPassword("dal"));
-        System.out.println(isNumber("dasds4ad"));
+        System.out.println(lengthOfPassword());
+
     }
 
 
@@ -17,16 +17,15 @@ public class PasswordValidation {
 
     }
 
-    public static boolean isNumber (String password) {
+    public static String isNumber (String password) {
 
-        for(int i = 0; i <= 9; i++ ){
+        for(int i = 0; i <= 9; i++ ) {
             String.valueOf(i);
-            if(password.contains(String.valueOf(i))){
-                return true;
+            if (password.contains(String.valueOf(i))) {
+                return "Password contains at least one digit ";
             }
 
-            }
-                return false;
+        }       return "Try to put at least one digit in your password ";
     }
 
 

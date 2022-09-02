@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="Little tweak to code">
-      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" afterDir="false" />
+    <list default="true" id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="Test case false">
+      <change beforePath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662104601909</updated>
-      <workItem from="1662104603272" duration="10999000" />
+      <workItem from="1662104603272" duration="11367000" />
     </task>
     <task id="LOCAL-00001" summary="Adding surefire Plugin">
       <created>1662105316605</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662115469353</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test case false">
+      <created>1662115656802</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662115656802</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
     <MESSAGE value="Second function implemented" />
     <MESSAGE value="Test working now" />
     <MESSAGE value="Little tweak to code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little tweak to code" />
+    <MESSAGE value="Test case false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test case false" />
   </component>
 </project>
