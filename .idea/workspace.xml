@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda8d428-ff02-4304-b928-4db16933bafa" name="Changes" comment="Added function to look for uppercase/lowercase letters">
+    <list default="true" id="dda8d428-ff02-4304-b928-4db16933bafa" name="Changes" comment="Added scanner for entering password, added hints to create a good password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662121023999</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added scanner for entering password, added hints to create a good password">
+      <created>1662127374769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662127374769</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -49,6 +55,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Scanner and tweaked the code a little bit" />
     <MESSAGE value="Added function to look for uppercase/lowercase letters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added function to look for uppercase/lowercase letters" />
+    <MESSAGE value="Added scanner for entering password, added hints to create a good password" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added scanner for entering password, added hints to create a good password" />
   </component>
 </project>
