@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="First part test driven">
+    <list default="true" id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="Length of password is now implemented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" afterDir="false" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662104601909</updated>
-      <workItem from="1662104603272" duration="4462000" />
+      <workItem from="1662104603272" duration="9920000" />
     </task>
     <task id="LOCAL-00001" summary="Adding surefire Plugin">
       <created>1662105316605</created>
@@ -68,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662105837906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Length of password is now implemented">
+      <created>1662109091514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662109091514</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding surefire Plugin" />
     <MESSAGE value="First part test driven" />
-    <option name="LAST_COMMIT_MESSAGE" value="First part test driven" />
+    <MESSAGE value="Length of password is now implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Length of password is now implemented" />
   </component>
 </project>
