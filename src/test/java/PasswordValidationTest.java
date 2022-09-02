@@ -13,11 +13,11 @@ public class PasswordValidationTest {
 
         //When
 
-        String actual = PasswordValidation.lengthOfPassword(passwordLengthTest);
+        String actual = String.valueOf(PasswordValidation.lengthOfPassword(passwordLengthTest));
 
         //Then
 
-        assertEquals("Password is valid!", actual);
+        assertEquals("true", actual);
 
     }
 
@@ -31,11 +31,11 @@ public class PasswordValidationTest {
 
         //When
 
-        String actual = PasswordValidation.lengthOfPassword(passwordLengthTest);
+        String actual = String.valueOf(PasswordValidation.lengthOfPassword(passwordLengthTest));
 
         //Then
 
-        assertEquals("Password is invalid!", actual);
+        assertEquals("false", actual);
 
     }
 
@@ -47,7 +47,7 @@ public class PasswordValidationTest {
         //When
         String actual = String.valueOf(PasswordValidation.isNumber(isDigitInPassword));
         //Then
-        assertEquals("Password contains at least one digit ", actual);
+        assertEquals("true", actual);
     }
 
     @Test
@@ -58,7 +58,7 @@ public class PasswordValidationTest {
         //When
         String actual = String.valueOf(PasswordValidation.isNumber(isDigitInPassword));
         //Then
-        assertEquals("Try to put at least one digit in your password ", actual);
+        assertEquals("false", actual);
     }
 
 }

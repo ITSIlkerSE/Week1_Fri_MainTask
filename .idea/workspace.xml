@@ -4,115 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="Test case false">
+    <list default="true" id="dda8d428-ff02-4304-b928-4db16933bafa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PasswordValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PasswordValidationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2ECfgfruQCdEzddK49xTLkW14GP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
-  }
-}]]></component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="0b95bc68-49bc-4e27-a4ba-910f1986c4a5" name="Changes" comment="" />
-      <created>1662104601909</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1662104601909</updated>
-      <workItem from="1662104603272" duration="11367000" />
-    </task>
-    <task id="LOCAL-00001" summary="Adding surefire Plugin">
-      <created>1662105316605</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1662105316605</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First part test driven">
-      <created>1662105837906</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1662105837906</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Length of password is now implemented">
-      <created>1662109091514</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1662109091514</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Second function test">
-      <created>1662114609278</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1662114609278</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Second function implemented">
-      <created>1662115105787</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1662115105787</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Test working now">
-      <created>1662115378032</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1662115378032</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Little tweak to code">
-      <created>1662115469353</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1662115469353</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Test case false">
-      <created>1662115656802</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1662115656802</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -124,16 +35,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding surefire Plugin" />
-    <MESSAGE value="First part test driven" />
-    <MESSAGE value="Length of password is now implemented" />
-    <MESSAGE value="Second function test" />
-    <MESSAGE value="Second function implemented" />
-    <MESSAGE value="Test working now" />
-    <MESSAGE value="Little tweak to code" />
-    <MESSAGE value="Test case false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test case false" />
   </component>
 </project>
