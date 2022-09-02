@@ -2,7 +2,7 @@ public class PasswordValidation {
 
     public static void main(String[] args) {
         System.out.println(lengthOfPassword("dal"));
-        System.out.println("");
+        System.out.println(isNumber("dasds4ad"));
     }
 
 
@@ -21,9 +21,12 @@ public class PasswordValidation {
 
         for(int i = 0; i <= 9; i++ ){
             String.valueOf(i);
-            if(isDigit.contains(i)))
+            if(isDigit.contains(String.valueOf(i))){
+                return true;
+            }
 
             }
+                return false;
     }
 
 
