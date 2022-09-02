@@ -39,5 +39,15 @@ public class PasswordValidationTest {
 
     }
 
+    @Test
+    void isNumberInPassword(){
+
+        //Given
+        String isDigitInPassword = "dasd34illd";
+        //When
+        String actual = String.valueOf(PasswordValidation.isNumber(isDigitInPassword));
+        //Then
+        assertEquals("true", actual);
+    }
 
 }
